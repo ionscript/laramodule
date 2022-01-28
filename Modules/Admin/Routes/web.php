@@ -47,27 +47,9 @@ Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
 
 /*
 |--------------------------------------------------------------------------
-| Call Center Routes
+|  Routes
 |--------------------------------------------------------------------------
 */
-
-/* Queue Routes... */
-Route::get('/queue', 'Call\QueueController@index')->name('queue');
-Route::any('/queue/add', 'Call\QueueController@create')->name('queue.create');
-Route::any('/queue/edit', 'Call\QueueController@edit')->name('queue.edit');
-Route::any('/queue/delete', 'Call\QueueController@delete')->name('queue.delete');
-
-/* Phone Number Routes... */
-Route::get('/number', 'CallCenter\PhoneNumberController@index')->name('number');
-Route::any('/number/add', 'CallCenter\PhoneNumberController@create')->name('number.create');
-Route::any('/number/edit', 'CallCenter\PhoneNumberController@edit')->name('number.edit');
-Route::any('/number/delete', 'CallCenter\PhoneNumberController@delete')->name('number.delete');
-
-/* Agent Routes... */
-Route::get('/agent', 'CallCenter\AgentController@index')->name('agent');
-Route::any('/agent/add', 'CallCenter\AgentController@create')->name('agent.create');
-Route::any('/agent/edit', 'CallCenter\AgentController@edit')->name('agent.edit');
-Route::any('/agent/delete', 'CallCenter\AgentController@delete')->name('agent.delete');
 
 
 /* Customer Routes... */

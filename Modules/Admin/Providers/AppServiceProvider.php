@@ -25,12 +25,6 @@ class AppServiceProvider extends ServiceProvider
                 );
             }
         }
-
-        if (!$this->app->has('debugbar') && $this->app->isLocal() && config('app.debug')) {
-//            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
-//            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
-//            $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
-        }
     }
 
     public function boot()

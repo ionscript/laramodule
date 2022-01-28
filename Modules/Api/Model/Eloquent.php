@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Admin\Model;
+namespace Modules\Api\Model;
 
 use Illuminate\Database\Eloquent\Model;
 

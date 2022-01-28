@@ -23,11 +23,6 @@ class AppServiceProvider extends ServiceProvider
             }
         }
 
-        if (!$this->app->has('debugbar') && $this->app->isLocal() && config('app.debug')) {
-//            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
-//            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
-//            $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
-        }
     }
 
     public function boot()
@@ -39,26 +34,15 @@ class AppServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom("$moduleBasePath/Language", 'account');
 
 
-//        config([
-//            'global' => Setting:all([
-//                'name','value'
-//            ])
-//             ->keyBy('name') // key every setting by its name
-//             ->transform(function ($setting) {
-//            return $setting->value // return only the value
-//            })
-//           ->toArray() // make it an array
-//        ]);
-
-        if (config('app.debug')) {
-            DB::listen(static function ($query) {
-
-                $raw = sprintf(str_replace('?', '%s', $query->sql), ...$query->bindings);
-
-                debug(
-                 "[{$query->time}ms] '$raw'",
-                );
-            });
-        }
+//        if (config('app.debug')) {
+//            DB::listen(static function ($query) {
+//
+//                $raw = sprintf(str_replace('?', '%s', $query->sql), ...$query->bindings);
+//
+//                debug(
+//                 "[{$query->time}ms] '$raw'",
+//                );
+//            });
+//        }
     }
 }

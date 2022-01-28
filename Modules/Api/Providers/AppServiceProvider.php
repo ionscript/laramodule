@@ -21,10 +21,6 @@ class AppServiceProvider extends ServiceProvider
                 );
             }
         }
-
-        if ($this->app->isLocal() && config('app.debug')) {
-//            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
-        }
     }
 
     public function boot()

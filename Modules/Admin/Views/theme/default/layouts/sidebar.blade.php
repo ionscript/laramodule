@@ -11,7 +11,6 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="menu-title">System</li>
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-user-circle"></i>
