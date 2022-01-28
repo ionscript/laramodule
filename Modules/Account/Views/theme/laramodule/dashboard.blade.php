@@ -1,4 +1,4 @@
-@extends('account::theme.frontoffice.layouts.master')
+@extends('account::theme.laramodule.layouts.master')
 
 @section('title') Dashboard @endsection
 

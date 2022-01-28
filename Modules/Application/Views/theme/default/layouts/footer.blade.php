@@ -68,8 +68,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="mb-4">
-                    <span class="h5 logo logo-light"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Frontoffice</span></span>
-                    <span class="h5 logo logo-dark"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Frontoffice</span></span>
+                    <span class="h5 logo logo-light"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Laramodule</span></span>
+                    <span class="h5 logo logo-dark"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Laramodule</span></span>
                 </div>
                 <p class="mb-2">2020 © All Rights reserved</p>
             </div>

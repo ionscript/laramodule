@@ -19,9 +19,6 @@ class RouteServiceProvider extends ServiceProvider
     public function map()
     {
         $this->mapApiRoutes();
-
-//        $this->mapTwilioRoutes();
-//        $this->mapMailgunRoutes();
     }
 
     protected function mapApiRoutes()
@@ -32,22 +29,4 @@ class RouteServiceProvider extends ServiceProvider
             ->namespace($this->namespace)
             ->group(base_path('Modules/Api/Routes/api.php'));
     }
-
-//    protected function mapTwilioRoutes()
-//    {
-//        Route::prefix('twilio')
-//            ->as('twilio.')
-//            ->middleware('api')
-//            ->namespace($this->namespace)
-//            ->group(base_path('Modules/Api/Routes/twilio.php'));
-//    }
-//
-//    protected function mapMailgunRoutes()
-//    {
-//        Route::prefix('mailgun')
-//            ->as('mailgun.')
-//            ->middleware('api')
-//            ->namespace($this->namespace)
-//            ->group(base_path('Modules/Api/Routes/mailgun.php'));
-//    }
 }

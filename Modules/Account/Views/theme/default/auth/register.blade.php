@@ -1,66 +1,124 @@
-@extends('account::theme.default.layouts.auth')
+@extends('account::theme.default.layouts.master-without-nav')
 
-@section('content')
-<div class="sixteen wide mobile eight wide tablet eight wide computer column div-section">
-    <div class="admin-des">
-        <h3>Welcome Admin</h3>
-        <p>Let us Answer, Route and Manage your Tax Office Calls </p>
-        <img src="{{asset('images/adminl.png')}}" alt="logo">
-    </div>
-</div>
-<div class="sixteen wide mobile eight wide tablet eight wide computer column div-section">
-    <div class="login-form ">
-        <div class="form-structor">
-            <div class="signup" id="s">
-                <h4>Registration</h4>
-                <div class="form-holder">
-                    <form class="ui form" method="POST" action="{{ route('register.form') }}">
-                        @csrf
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <i class="far fa-user"></i>
-                            <input type="text" id="name" name="name" placeholder="Name" required>
-                            @if ($errors->has('name'))
-                                <div class="ui error message" style="display: block; margin-bottom: 1em">
-                                    <p>{{ $errors->first('name') }}</p>
+@section('title')
+    Register
+@endsection
+
+@section('body')
+    <body>
+    @endsection
+
+    @section('content')
+        <div class="home-btn d-none d-sm-block">
+            <a href="index" class="text-dark"><i class="fas fa-home h2"></i></a>
+        </div>
+        <div class="account-pages my-5 pt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5">
+                        <div class="card overflow-hidden">
+                            <div class="bg-soft-primary">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div class="text-primary p-4">
+                                            <h5 class="text-primary">{{ __('Register') }}</h5>
+                                            <p>Get your free account now.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-5 align-self-end">
+                                        <img src="/assets/images/profile-img.png" alt="" class="img-fluid">
+                                    </div>
                                 </div>
-                            @endif
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <i class="far fa-envelope"></i>
-                            <input type="text" id="email" name="email" placeholder="E-Mail Address" required>
-                            @if ($errors->has('email'))
-                                <div class="ui error message" style="display: block; margin-bottom: 1em">
-                                    <p>{{ $errors->first('email') }}</p>
+                            </div>
+                            <div class="card-body pt-0">
+                                <div>
+                                    <a href="/">
+                                        <div class="avatar-md profile-user-wid mb-4">
+                                        <span class="avatar-title rounded-circle bg-light">
+                                            <i class="bx bx-analyse text-primary" style="font-size: 28px"></i>
+                                        </span>
+                                        </div>
+                                    </a>
                                 </div>
-                            @endif
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <i class="fas fa-unlock-alt"></i>
-                            <input type="password" name="password" id="password" placeholder="Password" required>
-                            @if ($errors->has('password'))
-                                <div class="ui error message" style="display: block; margin-bottom: 1em">
-                                    <p>{{ $errors->first('password') }}</p>
+                                <div class="p-2">
+                                    <form method="POST" action="{{ route('account.register') }}" class="form-horizontal">
+                                            @csrf
+                                        <div class="form-group">
+                                            <label for="user-name">{{ __('Username') }}</label>
+                                            <input id="user-name" type="text" placeholder="Enter username" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" autocomplete="username" autofocus>
+                                            @error('username')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="user-firstname">{{ __('First Name') }}</label>
+                                            <input id="user-firstname" type="text" placeholder="Enter first name" class="form-control @error('firstname') is-invalid @enderror" name="firstname" value="{{ old('firstname') }}" autocomplete="firstname" autofocus>
+                                            @error('firstname')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="user-lastname">{{ __('Last Name') }}</label>
+                                            <input id="user-lastname" type="text" placeholder="Enter last name" class="form-control @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" autocomplete="lastname" autofocus>
+                                            @error('lastname')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="user-email">{{ __('E-Mail Address') }}</label>
+                                            <input id="user-email" type="email" placeholder="Enter email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email">
+                                            @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                 <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label for="user-password">{{ __('Password') }}</label>
+                                            <input id="user-password" type="password" placeholder="Enter password" class="form-control @error('password') is-invalid @enderror" name="password" autocomplete="new-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="user-password-confirm">{{ __('Confirm Password') }}</label>
+                                            <input id="user-password-confirm" type="password" class="form-control" name="password_confirmation" autocomplete="new-password">
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">{{ __('Register') }}</button>
+                                        </div>
+
+                                        <div class="mt-4 text-center">
+                                            <p class="mb-0">By registering you agree to the <a href="#" class="text-primary">Terms of Use</a></p>
+                                        </div>
+                                    </form>
                                 </div>
-                            @endif
+
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="password_confirmation">Confirm Password</label>
-                            <i class="fas fa-unlock-alt"></i>
-                            <input type="password" id="password_confirmation" name="password_confirmation" placeholder="Confirm password" required>
-                            @if ($errors->has('password_confirmation'))
-                                <div class="ui error message" style="display: block; margin-bottom: 1em">
-                                    <p>{{ $errors->first('password_confirmation') }}</p>
-                                </div>
-                            @endif
+                        <div class="mt-5 text-center">
+                            <p>Already have an account ? <a href="/account/login" class="font-weight-medium text-primary"> Login</a> </p>
+                            <p>© <script>document.write(new Date().getFullYear())</script> Laramodule</p>
                         </div>
-                        <button class="ui button" type="submit">Registration</button>
-                    </form>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 @endsection

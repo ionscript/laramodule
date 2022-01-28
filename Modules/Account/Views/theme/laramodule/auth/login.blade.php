@@ -22,7 +22,7 @@ Login
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Sign in</h5>
-                                        <p>Frontoffice Account</p>
+                                        <p>Account</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -80,7 +80,7 @@ Login
 
                     <div class="mt-5 text-center">
                         <p>Don't have an account ? <a href="/account/register" class="font-weight-medium text-primary"> Signup now </a> </p>
-                        <p>© <script>document.write(new Date().getFullYear())</script> Frontoffice App</p>
+                        <p>© <script>document.write(new Date().getFullYear())</script> Laramodule</p>
                     </div>
 
                 </div>

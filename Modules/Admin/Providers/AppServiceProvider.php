@@ -26,15 +26,6 @@ class AppServiceProvider extends ServiceProvider
             }
         }
 
-        $this->app->register(\Frontoffice\Twilio\Api\AccountsServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\ApplicationsServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\PhoneNumbersServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\SipServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\VoiceServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\FaxServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\SmsServiceProvider::class);
-        $this->app->register(\Frontoffice\Twilio\Api\VideoServiceProvider::class);
-
         if (!$this->app->has('debugbar') && $this->app->isLocal() && config('app.debug')) {
 //            $this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
 //            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);

@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'version' => env('APP_VERSION', '0.0.0'),
+    'version' => env('APP_VERSION', '0.1.1'),
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Laramodule'),
 
     /*
     |--------------------------------------------------------------------------
@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://loramodule'),
 
     'asset_url' => env('ASSET_URL', null),
 

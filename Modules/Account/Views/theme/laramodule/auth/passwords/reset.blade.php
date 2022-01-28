@@ -22,7 +22,7 @@
                                     <div class="col-7">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary"> {{ __('Reset Password') }}</h5>
-                                            <p>Re-Password with Frontoffice.</p>
+                                            <p>Re-Password.</p>
                                         </div>
                                     </div>
                                     <div class="col-5 align-self-end">
@@ -90,7 +90,7 @@
                         </div>
                         <div class="mt-5 text-center">
                             <p>Remember It ? <a href="/account/login" class="font-weight-medium text-primary"> Sign In here</a> </p>
-                            <p>© <script>document.write(new Date().getFullYear())</script> Frontoffice App</p>
+                            <p>© <script>document.write(new Date().getFullYear())</script> Laramodule</p>
                         </div>
 
                     </div>

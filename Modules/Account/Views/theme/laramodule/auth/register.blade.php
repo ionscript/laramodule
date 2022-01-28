@@ -22,7 +22,7 @@
                                     <div class="col-7">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">{{ __('Register') }}</h5>
-                                            <p>Get your free Frontoffice account now.</p>
+                                            <p>Get your free account now.</p>
                                         </div>
                                     </div>
                                     <div class="col-5 align-self-end">
@@ -104,7 +104,7 @@
                                         </div>
 
                                         <div class="mt-4 text-center">
-                                            <p class="mb-0">By registering you agree to the Frontoffice <a href="#" class="text-primary">Terms of Use</a></p>
+                                            <p class="mb-0">By registering you agree to the <a href="#" class="text-primary">Terms of Use</a></p>
                                         </div>
                                     </form>
                                 </div>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="mt-5 text-center">
                             <p>Already have an account ? <a href="/account/login" class="font-weight-medium text-primary"> Login</a> </p>
-                            <p>© <script>document.write(new Date().getFullYear())</script> Frontoffice App</p>
+                            <p>© <script>document.write(new Date().getFullYear())</script> Laramodule</p>
                         </div>
 
                     </div>

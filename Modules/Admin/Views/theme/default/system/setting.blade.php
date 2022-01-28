@@ -36,11 +36,6 @@
                                 Filesystems
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#tab-twilio" role="tab" aria-selected="true">
-                                Twilio
-                            </a>
-                        </li>
                     </ul>
 
                     <form class="ui form" method="POST" action="/admin/settings/edit">
@@ -394,30 +389,6 @@
                                 </div>
                             </div>
 
-
-                            <div class="tab-pane" id="tab-twilio" role="tabpanel">
-                                <div class="form-group row">
-                                    <label for="twilio-account_sid" class="col-md-2 col-form-label">Account sid</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="text" name="twilio[account_sid]" value="{{ $twilio['keys']['account_sid'] }}" id="twilio-account_sid">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="twilio-auth_token" class="col-md-2 col-form-label">Auth Token</label>
-                                    <div class="col-md-10">
-                                        <input class="form-control" type="text" name="twilio[auth_token]" value="{{ $twilio['keys']['auth_token'] }}" id="twilio-auth_token">
-                                    </div>
-                                </div>
-{{--                                <div class="form-group row">--}}
-{{--                                    <label for="twilio-app_sid" class="col-md-2 col-form-label">App sid</label>--}}
-{{--                                    <div class="col-md-10">--}}
-{{--                                        <input class="form-control" type="text" name="twilio[app_sid]" value="{{ $twilio['app_sid'] }}" id="twilio-app_sid">--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-                                <button type="submit" class="btn btn-primary waves-effect waves-light">
-                                    <i class="bx bx-save font-size-16 align-middle mr-2"></i> Save
-                                </button>
-                            </div>
                         </div>
                     </form>
                 </div>

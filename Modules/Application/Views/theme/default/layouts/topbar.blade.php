@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navigation fixed-top sticky">
     <div class="container">
         <a class="navbar-logo" href="{{route('app.home')}}">
-            <span class="h4 text-primary logo logo-dark"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Frontoffice</span></span>
-            <span class="h4 text-primary logo logo-light"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Frontoffice</span></span>
+            <span class="h4 text-primary logo logo-dark"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Laramodule</span></span>
+            <span class="h4 text-primary logo logo-light"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Laramodule</span></span>
         </a>
 
         <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light" data-toggle="collapse" data-target="#topnav-menu-content">

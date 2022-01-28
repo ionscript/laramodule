@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
-{{--                <script>document.write(new Date().getFullYear())</script> © Frontoffice App--}}
+{{--                <script>document.write(new Date().getFullYear())</script> © Laramodule App--}}
                 @lang('admin::common.text_footer')
             </div>
             <div class="col-sm-6">

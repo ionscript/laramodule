@@ -5,11 +5,11 @@
             <div class="navbar-brand-box">
                 <a href="/admin" class="logo logo-dark">
                     <span class="h4 logo-sm" style="padding-top: 23px;"><i class="bx bx-analyse text-primary"></i> <span class="text-dark"></span></span>
-                    <span class="h4 text-primary logo-lg"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Frontoffice</span></span>
+                    <span class="h4 text-primary logo-lg"><i class="bx bx-analyse text-primary"></i> <span class="text-dark">Laramodule</span></span>
                 </a>
                 <a href="/admin" class="logo logo-light">
                     <span class="h4 logo-sm" style="padding-top: 23px;"><i class="bx bx-analyse text-primary"></i></span>
-                    <span class="h4 text-primary logo-lg"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Frontoffice</span></span>
+                    <span class="h4 text-primary logo-lg"><i class="bx bx-analyse text-primary"></i> <span class="text-white">Laramodule</span></span>
                 </a>
             </div>
             <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">

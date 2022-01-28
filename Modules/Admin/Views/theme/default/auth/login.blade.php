@@ -22,7 +22,7 @@ Login
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Sign in</h5>
-                                        <p>Frontoffice Admin Panel</p>
+                                        <p>Admin Panel</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -75,7 +75,7 @@ Login
                     </div>
 
                     <div class="mt-5 text-center">
-                        <p>© <script>document.write(new Date().getFullYear())</script> Frontoffice App</p>
+                        <p>© <script>document.write(new Date().getFullYear())</script> Laramodule App</p>
                     </div>
 
                 </div>

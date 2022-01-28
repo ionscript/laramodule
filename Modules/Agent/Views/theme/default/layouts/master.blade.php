@@ -136,34 +136,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/vendor/jquery/dist/jquery.js"></script>
 
-{{--<script type="text/javascript">--}}
-{{--    var timerVar;--}}
-{{--    $(document).ready(function(){--}}
-{{--        timerVar  = "{{env('AWAY_STATUS_TIMER', 600000)}}";--}}
-{{--    });--}}
-{{--</script>--}}
-{{--<script type="text/javascript">--}}
-{{--    $(document).ready(function(){--}}
-{{--        agentName = "<?= Auth::guard('agents')->user()->web_username ?>";--}}
-{{--    });--}}
-{{--</script>--}}
-{{--<script type="text/javascript">--}}
-{{--    $(document).ready(function(){--}}
-{{--        callCenterId = "<?= Auth::guard('agents')->user()->call_center_id ?>";--}}
-{{--    });--}}
-{{--</script>--}}
-{{--<script type="text/javascript">--}}
-{{--    $(document).ready(function () {--}}
-{{--        agentHash = "{{Auth::guard('agents')->user()->agent_hash}}";--}}
-{{--    })--}}
-{{--</script>--}}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/vendor/fontawesome/js/all.js"></script>
-<script src="/vendor/twilio/twilio.js"></script>
-<script src="/vendor/socket.io-client/dist/socket.io.js"></script>
-{{--@if(!request()->route()->named('sms.page'))--}}
-{{--    <script src="/vendor/semantic/dist/semantic.js"></script>--}}
-{{--@endif--}}
+
 <script src="/vendor/semantic/dist/semantic.js"></script>
 <script src="/vendor/mmenu/dist/mmenu.js"></script>
 
@@ -171,8 +146,6 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/vendor/jquery.maskedinput/dist/jquery.maskedinput.js"></script>
 <script src="/js/theme/default/sweetalert2.js"></script>
-<script src="/js/theme/default/init.js"></script>
-<script src="/js/theme/default/agent.js"></script>
 @stack('scripts')
 
 

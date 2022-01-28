@@ -11,7 +11,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="text-white-50">
-                        <h1 class="text-white font-weight-semibold mb-5 hero-title">Front Office</h1>
+                        <h1 class="text-white font-weight-semibold mb-5 hero-title">Laravl Modules</h1>
                         <h2 class="text-white font-weight-semibold mb-3">Cloud-based phone system for your tax office</h2>
                         <p class="font-size-14">Drawing on 25 years of experience working with tax offices, we design your Front Office to meet your unique needs. We build it, set it up, and tweak it until it works just the way you want.</p>
 
@@ -62,7 +62,7 @@
                                     </div>
 
                                     <div class="mt-4 text-center">
-                                        <p class="mb-0">By registering you agree to the Frontoffice <a href="#" class="text-primary">Terms of Use</a></p>
+                                        <p class="mb-0">By registering you agree to the Laramodule <a href="#" class="text-primary">Terms of Use</a></p>
                                     </div>
                                 </form>
                             </div>

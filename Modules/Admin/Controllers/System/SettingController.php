@@ -35,7 +35,6 @@ class SettingController extends Controller
         $data['mail'] = $request->input('mail');
         $data['logging'] = $request->input('logging');
         $data['filesystems'] = $request->input('filesystems');
-        $data['twilio'] = $request->input('twilio');
 
         if (!App::configurationIsCached()) {
             Artisan::call('config:cache');
@@ -45,8 +44,7 @@ class SettingController extends Controller
             'app' => $request->input('app'),
             'mail' => $request->input('mail'),
             'logging' => $request->input('logging'),
-            'filesystems' => $request->input('filesystems'),
-            'twilio' => $request->input('twilio')
+            'filesystems' => $request->input('filesystems')
         ]);
 
         File::put(base_path('bootstrap/cache/config.php'), '<?php return ' . var_export($data, true) . ';');

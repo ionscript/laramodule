@@ -123,6 +123,6 @@ return [
     'error_upload_999'             => 'Warning: No error code available!',
     'error_curl'                   => 'CURL: Error Code(%s): %s',
 
-    'text_footer'                  => '<a href="http://www.frontoffice.space">FrontOffice</a> &copy; 2020-' . date('Y') . ' All Rights Reserved.',
+    'text_footer'                  => '<a href="http://">Laramodule</a> &copy; 2020-' . date('Y') . ' All Rights Reserved.',
     'text_version'                 => 'Version 1.0.0a'
 ];

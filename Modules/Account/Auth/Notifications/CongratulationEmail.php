@@ -17,7 +17,7 @@ class CongratulationEmail extends Notification
     {
         return (new MailMessage)
             ->subject('Congratulations!')
-            ->line('Welcome to Frontoffice.')
+            ->line('Welcome to Laramodule.')
             ->action('Log in', route('account.login'));
     }
 }

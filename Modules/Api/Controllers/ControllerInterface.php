@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Admin\Controllers;
+namespace Modules\Api\Controllers;
 
 
 use Illuminate\Http\Request;

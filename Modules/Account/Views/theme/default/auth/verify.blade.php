@@ -1,37 +1,27 @@
-@extends('account::theme.default.layouts.auth')
+@extends('layouts.app')
 
 @section('content')
-<div class="sixteen wide mobile eight wide tablet eight wide computer column div-section">
-    <div class="admin-des">
-        <h3>Welcome</h3>
-        <p>Let us Answer, Route and Manage your Tax Office Calls </p>
-        <img src="/images/theme/default/adminl.png" alt="logo">
-    </div>
-</div>
-<div class="sixteen wide mobile eight wide tablet eight wide computer column div-section">
-    @if (session('resent'))
-        <div class="ui success message">
-            <i class="close icon"></i>
-            <p>{{ __('A fresh verification link has been sent to your email address.') }}</p>
-        </div>
-    @endif
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Verify Your Email Address') }}</div>
 
-    <div class="login-form ">
-        <div class="form-structor">
-            <div class="signup" id="s">
-                <h4>Sign in</h4>
-                <div class="form-holder">
-                    <div class="form-group">
-                        {{ __('Before proceeding, please check your email for a verification link.') }}
-                            {{ __('If you did not receive the email') }},
-                    </div>
+                <div class="card-body">
+                    @if (session('resent'))
+                        <div class="alert alert-success" role="alert">
+                            {{ __('A fresh verification link has been sent to your email address.') }}
+                        </div>
+                    @endif
 
-                    <form class="ui form" method="POST" action="{{ route('account.verification.resend') }}">
-                        <button class="ui button link" type="submit">{{ __('click here to request another') }}</button>
+                    {{ __('Before proceeding, please check your email for a verification link.') }}
+                    {{ __('If you did not receive the email') }},
+                    <form class="d-inline" method="POST" action="{{ route('verification.resend') }}">
+                        @csrf
+                        <button type="submit" class="btn btn-link p-0 m-0 align-baseline">{{ __('click here to request another') }}</button>.
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

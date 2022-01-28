@@ -1,7 +1,7 @@
 # Versioning Strategy
 
 ## About
-`laramodule` uses a [Semantic Versioning 2.0][semver] for all changes to the Frontoffice Application.
+`laramodule` uses a [Semantic Versioning 2.0][semver] for all changes to the Laramodule Skeleton Application.
 > It is strongly encouraged that you pin the major, minor and patch version.
 
 ## Summary
