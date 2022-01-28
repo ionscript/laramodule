@@ -1,0 +1,201 @@
+nav:not(.mm-menu)
+{
+	display: none;
+}
+li.my-queue.mm-listitem p img{
+	float: left;
+}
+li.my-queue.mm-listitem p {
+	width: 100%;
+}
+li.my-queue.mm-listitem p span.middle{
+	float: left;
+	width: 50%;
+}
+li.my-queue.mm-listitem p span.action-icon{
+	float: right;
+}
+li.my-queue.mm-listitem p span.action-icon .call-icon {
+    margin: 0 7px;
+    width: 33px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    padding: 5px 1px;
+    border-radius: 100%;
+    display: inline-block;
+}
+li.my-queue.mm-listitem p span.action-icon .chat-icon {
+    margin: 0 7px;
+    width: 33px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    padding: 5px 1px;
+    border-radius: 100%;
+    display: inline-block;
+}
+li.my-queue.mm-listitem p span.action-icon .call-icon i::before{
+	margin-left: 0;
+	font-size: 15px;
+}
+li.my-queue.mm-listitem p span.action-icon .chat-icon i::before{
+	margin-left: 0;
+	font-size: 15px;
+}
+li.my-queue.mm-listitem p span.middle span.title {
+    font-size: 14px;
+}
+li.my-queue.mm-listitem p span.middle span.offline {
+    font-size: 10px;
+}
+li.my-queue.mm-listitem p span.middle .offline svg{
+	color: #fd5173;
+	margin-right: 5px;
+	font-size: 8px;
+}
+li.my-queue.mm-listitem p span.middle .away svg{
+	color: #f2c900;
+	margin-right: 5px;
+	font-size: 8px;
+}
+li.my-queue.mm-listitem p span.middle .available svg{
+	color: #1be82a;
+	margin-right: 5px;
+	font-size: 8px;
+}
+p.call-hold {
+    width: 10px !important;
+    float: right;
+    position: absolute;
+    right: 35%;
+    top: 30%;
+}
+li.note-info p {
+    width: 100%;
+    margin: 3px 0;
+    color: #fff;
+    text-align: center;
+}
+li.note-info .note-btn{
+	background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    padding: 7px 25px;
+    margin-right: 5px;
+}
+li.note-info .btn-section{
+	margin: 8px 0;
+}
+#page .header
+{
+	text-align: center;
+}
+#page .header
+{
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	padding: 0 25px;
+}
+#page .header.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#page .header a
+{
+	display: block;
+	width: 50px;
+	height: auto;
+	padding: 20px 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#page .header a:before,
+#page .header a:after
+{
+	content: '';
+	display: block;
+	background: #000;
+	height: 2px;
+}
+#page .header a span
+{
+	background: #000;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+#page .content
+{
+	padding: 150px 50px 50px 50px;
+}
+div#mm-1 {
+    background: #5b5f61;
+}
+p.search-ares {
+    width: 100%;
+    padding: 10px 15px;
+}
+.search-ares input{
+	width: 85%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	background: transparent;
+    border-bottom: 1px solid gray;
+    padding: 8px 0;
+    color: #fff;
+}
+.search-ares input::placeholder{
+	color: #eaeaea;
+}
+i.icon.search:before{color: #eaeaea;}
+li.my-queue.mm-listitem {
+    padding: 10px 20px;
+    font-family: "CenturyGothic";
+}
+li.my-queue.mm-listitem img{
+	margin-right: 15px;
+}
+li.my-queue.mm-listitem p {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    font-family: "CenturyGothic";
+}
+li.my-queue.mm-listitem p span{
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    font-weight: 100;
+    cursor: pointer;
+    font-family: "CenturyGothic";
+}
+li.room-section.mm-listitem p {
+    width: 100%;
+    color: #fff;
+}
+li.room-section.mm-listitem p:first-child{
+	padding-top: 15px;
+}
+li.room-section.mm-listitem .btn-section button.ui.button{
+	width: 90%;
+	background-color: #fd5173;
+	color: #fff;
+}
+p{
+	font-family: "CenturyGothic";
+}
+.mm-menu a{
+	color: #fff;
+}
+.mm-menu a span{
+	color: #fff;
+	font-size: 13px;
+    font-weight: 400;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "laramodule",
+    "homepage": "https://github.com/ionscript/laramodule",
+    "description": "Laravel Modules Skeleton",
+    "contributors": [],
+    "repository": "https://github.com/ionscript/laramodule.git",
+    "main": "/public/app.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "private": true,
+    "license": "GPL3+",
+    "version": "0.1.1"
+}

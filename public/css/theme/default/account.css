@@ -1,0 +1,5015 @@
+/* TODO: HEADER */
+
+.account-holder {
+    border: 1px solid #9c9c9c6e;
+}
+
+.account-holder .account-holder-info {
+    padding: 5px 5px;
+}
+.sidebar-one .sidebar .account-holder-info .member.ui.items .item.call-receive .middle .header {
+    color: #fff !important;
+}
+
+
+.account-header {
+    background-color: #404040;
+    min-height: 300px;
+}
+
+.account-header .row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.account-header .ui.segment.logo {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-top: 25px;
+    border-radius: 0;
+    border-right: 1px solid #6d6d6d;
+}
+
+.account-header .ui.secondary.menu {
+    padding-top: 15px;
+}
+
+.account-header .ui.secondary.menu .item {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    border-right: 1px solid #575757;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: 0 30px 5px;
+}
+
+.account-header .ui.secondary.menu .item .content img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+
+
+.account-header .ui.secondary.menu .item:hover .content .m-icon {
+    display: none;
+}
+
+.account-header .ui.secondary.menu .item:hover .content .m-hover {
+    display: block;
+}
+
+.account-header .ui.secondary.menu .item .content .m-hover {
+    display: none;
+}
+
+.account-header .ui.secondary.menu .item.active {
+    color: #fd5073;
+    border-bottom: 2px solid;
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+
+.account-header .ui.secondary.menu .item.active:hover {
+    color: #fd5073;
+}
+
+.account-header .ui.secondary.menu .item.active:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    left: 0;
+    right: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fd5073;
+    margin: 0 auto;
+}
+
+.account-header .ui.secondary.menu .item:hover {
+    color: #fd5073;
+}
+
+.account-header .ui.secondary.menu .item i {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.account-header .ui.secondary.menu .item .content {
+    text-align: center;
+}
+
+.account-header .ui.secondary.menu .item .content i:before {
+    margin-left: 0;
+    font-size: 25px;
+}
+
+.account-header .ui.tab.segment.active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.account-header .ui.tab.segment.active .ui.top.attached.tabular.menu {
+    border-bottom: 0;
+    box-shadow: none;
+}
+
+.account-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item {
+    background: #575757;
+    padding: 12px 25px;
+    border-right: 1px solid #d4d4d42e;
+    color: #d4d4d4;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.account-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item.active {
+    border: 0;
+    border-radius: 0 !important;
+    border-right: 1px solid #d4d4d42e;
+    margin-bottom: 0;
+    color: #fd5073;
+}
+
+.sidebar-one .sidebar .account-holder-info .content {
+    margin-top: 0 !important;
+}
+
+.sidebar-one .sidebar .account-holder-info .accordion {
+    box-shadow: none;
+    border: 1px solid #80808069;
+}
+
+
+.account-header .ui.secondary.menu .item:last-child {
+    border-right: 0;
+}
+
+.account-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item:last-child {
+    border-right: 0;
+}
+
+@media only screen and (max-width: 1080px) {
+    .account-header .ui.secondary.menu .item {
+        font-size: 13px;
+    }
+
+    .account-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item {
+        font-size: 13px;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .account-header .ui.secondary.menu .item {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+    .account-header .ui.secondary.menu .item {
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .account-header {
+        min-height: auto;
+    }
+    .account-header .ui.segment.logo {
+        text-align: center;
+        border-right: 0;
+        z-index: 1;
+    }
+    .account-header .ui.secondary.menu {
+        float: none;
+        width: 100%;
+        display: inline-block;
+        padding-top: 5px;
+    }
+
+    .account-header .ui.secondary.menu .item {
+        font-size: 15px;
+        float: none;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .account-header .ui.tab.segment.active {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main.container .ui.internally.celled.account-header-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td .ui.button {
+        padding: 8px 11px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .account-header .ui.secondary.menu .item {
+        font-size: 12px;
+    }
+
+    .account-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+}
+
+/* TODO: BODY */
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .removeOffice {
+    color: #fff;
+}
+.main.container .ui.internally.celled.account-body .tabular.menu .ui .scroll-style .content table {
+    width: 100%;
+}
+
+.main.container .account-body .row {
+    box-shadow: none !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table.promot tbody tr td {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.main.container .ui.internally.celled.account-body {
+    padding: 20px;
+    background: #edf1f5;
+    position: relative;
+    top: -100px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu {
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h1 {
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #edf1f5;
+    padding: 25px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label {
+    color: #605f5f;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field {
+    border-bottom: 1px solid #edf1f5;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label:before {
+    border-color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label:after {
+    background-color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label p {
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0;
+    text-transform: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label span {
+    color: #515151;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .inline.fields {
+    background: #fff;
+    padding: 7px 15px;
+    margin: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .inline.fields label {
+    width: 150px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .inline.fields .ui.button {
+    background-color: #fd5173;
+    border-radius: 0;
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .inline.fields input {
+    height: 40px;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.add-menu .ui.form .inline.fields label {
+    width: 120px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.add-menu .ui.form .inline.fields input.submenu-name {
+    margin-right: 15px;
+    min-height: 36px;
+    height: 36px;
+    width: 340px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.top.attached.menu {
+    border: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.top.attached.menu .right.menu .search {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.top.attached.menu .right.menu .search .search.link {
+    color: #b0b0b0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu {
+    background: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .ui.top.attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table {
+    margin-top: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table thead tr th {
+    font-size: 14px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-left: 0;
+    background-color: #fff;
+    border-bottom: transparent;
+}
+
+.ui.striped.table tbody tr:nth-child(2n) {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td {
+    border-left: 0;
+    color: #827d7d;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td.right.aligned .fa-search {
+    color: #51bafa;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td.right.aligned .fa-trash-alt {
+    color: #7f7f7f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .bottom-img {
+    position: absolute;
+    bottom: -110px;
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .left.menu h4 .fa-plus-square {
+    color: #5d779a;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .title {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .title .ui.top.attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .title.active {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .content {
+    background-color: #fff;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion .content.active {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table {
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: transparent;
+    border-bottom: transparent;
+    background-color: #fff;
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td {
+    font-size: 13px;
+    font-weight: 400;
+    color: #827d7d;
+    border-left: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td .fa-check-circle {
+    color: #96be60;
+    font-size: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td .fa-trash-alt {
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    padding: 8px 40px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page {
+    background-color: transparent;
+    padding: 80px 115px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page p {
+    text-align: center;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page p .fa-exclamation-triangle {
+    color: #ffcc33;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page p a {
+    color: #8a87fc;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .heading-style {
+    padding: 25px 0 20px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.small.centered.image {
+    padding: 20px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.small.images {
+    text-align: center;
+    padding: 35px 0 20px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.small.images img {
+    margin: 0 8px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.message {
+    border: 0;
+    box-shadow: none;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.message p {
+    color: #302f2f;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.message p a {
+    color: #8a87fc;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .title {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .title .ui.top {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .title .ui.top .left.menu .fa-plus-square {
+    margin-right: 15px;
+    color: #536c8e;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table thead tr th {
+    background-color: #fff;
+    border-bottom: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table thead tr th label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table thead tr th label .fa-caret-down {
+    color: #fd5073;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table tbody tr td {
+    color: #827d7d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table tbody tr td .circle {
+    color: #079734;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table tbody tr td .color-star {
+    color: #fac917;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table tbody tr td .gray-circule {
+    color: #9f9f9f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message {
+    width: auto;
+    display: table;
+    margin: 0 0 5px 0;
+    background-color: #fff6bf;
+    box-shadow: none;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message .fa-exclamation-triangle {
+    color: #ffcc33;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message .fa-check-circle {
+    color: #e71414;
+    margin-right: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message p {
+    color: #3c3c3c;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message p a {
+    color: #516fec;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .message.holdMessage {
+    border: 0;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .message p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .message p span {
+    color: #303030;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .btn .button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .second-playlist {
+    margin: 40px 0 0 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .second-playlist .bottom-section {
+    text-align: center;
+    bottom: -90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .second-playlist .bottom-section .button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .second-playlist .bottom-section .bottom-img {
+    margin: 25px 0 20px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu h4 {
+    margin-right: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu {
+    width: 670px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .selection {
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .dropdown:before {
+    font-size: 18px;
+    color: #999999;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr label {
+    display: block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table thead tr th {
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table thead tr th label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td {
+    color: #827d7d;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td label {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+    padding: 8px 15px;
+    width: 290px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form .selection {
+    background-color: #f4f3f3;
+    border-radius: 0;
+    width: 40%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form .selection .dropdown:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td a {
+    color: #7d7af5;
+    cursor: pointer;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .btn {
+    text-align: center;
+    margin: 30px 0 25px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue p {
+    color: #ef3057;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .btn {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .btn .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    width: 18%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row h1 {
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .title {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .title h1 {
+    text-align: left;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .section .ui.number.form .inline.field {
+    border-bottom: 1px solid #80808030;
+    padding: 0 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .section .ui.number.form .inline.field input {
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items {
+    margin: 0 0 3px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #80808045;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item {
+    padding: 0 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui label .circle {
+    margin-left: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right {
+    width: 370px;
+    text-align: right;
+    margin-top: 3px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right input {
+    width: 100%;
+    background-color: #f4f3f3;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right input.ttl {
+    float: left;
+    display: inline-block;
+    width: 270px !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right p {
+    color: #959595;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right .selection {
+    background-color: #f4f3f3;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right .selection .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+    width: 325px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .ui.right {
+    width: auto;
+    padding: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .ui.right .fa-volume-up {
+    color: #6b6b6b;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+    margin-top: 2px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header .ui.selection {
+    background-color: #f4f3f3;
+    border-radius: 0;
+    min-height: 40px;
+    padding: 8px 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header .ui.selection .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 10px 30px 10px 10px;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section .add {
+    background-color: #fd5073;
+    width: 100px;
+    padding: 10px 0;
+    margin: 20px 0;
+    border: 0 #fd5073;
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section .multiselect1 {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section .multiselect1 option {
+    color: #6e6e6e;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section h1 {
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section {
+    display: inline-block;
+    float: right;
+    width: 75%;
+    background-color: #fff;
+    padding: 10px 15px 78px 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section h1 {
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table thead tr th {
+    border-right: 1px solid #e4e4e4;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #f3f3f3;
+    border-bottom: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts p span {
+    color: #000000;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled {
+    margin-bottom: 30px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled.all-details {
+    margin-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .title .ui.top {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th {
+    border-bottom: 0;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3c3c3c;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td {
+    border-left: 0;
+    color: #827d7d;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td a {
+    color: #7d7af5;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content .total-size {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content .total-size .right-section ul {
+    text-align: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content .total-size .right-section ul li {
+    display: inline-block;
+    padding: 0 22px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {
+    background-color: #f4f3f3;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td label {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu p {
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .message {
+    border: 0;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .message p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .message p span {
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .content .add-user-details tr td {
+    padding: 5px 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .content .add-user-details tr td .user-input {
+    width: 77%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .content .add-user-details tr td .extension-input {
+    width: 72%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .content .add-user-details tr td label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .accordion {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .title .attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .title .attached.menu .left.menu .fa-plus-square {
+    color: #536c8e;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .title .attached.menu .left.menu .fa-minus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .title.active .attached.menu .left.menu .fa-minus-square {
+    display: inline-block;
+    color: #536c8e;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .title.active .attached.menu .left.menu .fa-plus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .multiselect {
+    width: 100%;
+    min-height: 180px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-size: 14px;
+    color: #827d7d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: 1px solid #d9d9d9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .multiselect option {
+    margin-bottom: 8px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn {
+    padding-top: 70px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn .ui.button.first-btn {
+    background-color: #404040;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .seven {
+    background-color: #fff;
+    padding: 20px 25px 40px 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content {
+    padding: .5em 1em 1.5em !important;
+    background-color: transparent !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .seven h3 {
+    color: #536c8e;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .btn {
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .btn .ui.button {
+    border-radius: 0;
+    background-color: #fd5073;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled {
+    width: 100%;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter {
+    padding: 10px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter .ui.number.form {
+    margin-bottom: 8px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter .selection {
+    width: 25%;
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter .ui.button {
+    background-color: #fd5073;
+    color: #fff;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter p {
+    display: inline-block;
+    font-size: 14px;
+    color: #6c6c6c;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content .bottom-filter .selection .dropdown.icon:before {
+    font-size: 18px;
+    color: #999999;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .ui.top {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .ui.popup.top {
+    background-color: #fff3e7;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery p {
+    color: #6a6a6a;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.message {
+    background-color: #d9534f;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.message p {
+    color: #fff;
+    word-spacing: 2px;
+    opacity: 1;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.message p span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.message p a {
+    color: #ffe400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info thead tr th {
+    background-color: #fff;
+    border-bottom: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info thead tr th label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td {
+    padding: 10px 15px;
+    border-left: 0;
+    color: #827d7d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .fa-search {
+    color: #5ebffa;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .fa-trash-alt {
+    color: #bbbbbb;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .fa-circle {
+    color: #bbbbbb;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .available {
+    background-color: #7ace4c;
+    color: #fff;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .offline-icon {
+    background-color: #d5d5d5;
+    color: #575757;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .flaticon-logout:before {
+    font-size: 24px;
+    margin: 0;
+    color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #516fec;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups p {
+    color: #7a7a7a;
+    font-size: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.message {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.message p {
+    color: #7a7a7a;
+    font-size: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.message p span {
+    color: #171616;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled .top.attached.menu {
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled .top.attached.menu .left .ui.header svg {
+    color: #536c8e;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table {
+    box-shadow: none;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table thead tr th {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    background-color: #fff;
+    border-bottom: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table thead tr th label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td {
+    border-top: none;
+    padding: 10px 15px;
+    border-left: transparent;
+    border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+    color: #827d7d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td a {
+    color: #7d7af5;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .number input {
+    background: #f4f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    width: 280px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .ui.checkbox input {
+    right: 0;
+    left: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .ui.checkbox label {
+    padding-left: 0;
+    padding-right: 1.85714em;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .ui.checkbox label:before {
+    left: auto;
+    right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .ui.checkbox label:after {
+    left: auto;
+    right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td label {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled .content {
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled .content p {
+    color: #827d7d;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details h6 {
+    color: #ef3057;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px 0 20px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details p {
+    color: #4d4d4d;
+    font-size: 15px;
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .left.menu h4 .fa-plus-square {
+    color: #5d779a;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .title {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .title .ui.top.attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .title.active {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content.active {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .ui.list label {
+    color: #ef3057;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .ui.list label span {
+    color: #414141;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .ui.list label a {
+    color: #8c75ff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .btn {
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: -110px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .btn .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table thead tr th {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: transparent;
+    border-bottom: transparent;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tbody tr td {
+    font-size: 13px;
+    font-weight: 400;
+    color: #827d7d;
+    padding: 7px 15px;
+    border-left: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tbody tr td .fa-check-circle {
+    color: #96be60;
+    font-size: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tbody tr td .fa-pencil-alt {
+    color: #969696;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tbody tr td .selection {
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tbody tr .no-border {
+    border-left: 0 !important;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    border-left: 1px solid rgba(34, 36, 38, 0.1);
+    padding: 5px 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.number.form label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.number.form input {
+    background: #f4f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown {
+    background: #f4f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    width: auto;
+    min-width: 140px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown .dropdown:before {
+    font-size: 18px;
+    color: #827d7d;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.notes.form label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    padding: 5px 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.notes.form input {
+    background: #f4f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+    padding: 5px 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form .ui.dropdown {
+    background: #f4f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    width: auto;
+    min-width: 140px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form .ui.dropdown .dropdown:before {
+    font-size: 18px;
+    color: #827d7d;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table {
+    background-color: transparent;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form {
+    width: 40%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form .ui.dropdown {
+    width: 325px;
+    border-radius: 0;
+    height: 40px;
+    margin-left: 10px;
+    background: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form.over-steps .ui.dropdown .text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #8c8c8c;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form .ui.dropdown .dropdown.icon {
+    padding: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form .ui.dropdown .dropdown.icon:before {
+    font-size: 20px;
+    color: #999999;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr th {
+    background-color: #fff;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 400;
+    padding: 6px;
+    height: 50px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td strong {
+    color: #3c3c3c;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .ui.dropdown {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .select {
+    display: inline-block;
+    width: auto;
+    margin: 0 20px 0 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .select .ui.dropdown {
+    width: 80px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto {
+    display: inline-block;
+    width: auto;
+    margin-left: 6px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+    width: 160px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr th {
+    background-color: #fff;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 400;
+    padding: 6px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td strong {
+    color: #3c3c3c;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .ui.dropdown {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .press {
+    display: inline-block;
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .press .ui.dropdown {
+    width: 80px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .merctel {
+    display: inline-block;
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .merctel .ui.dropdown {
+    width: 205px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td svg {
+    margin: 0 5px;
+    color: #959595;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td svg {
+    margin: 0 5px;
+    color: #959595;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep {
+    display: inline;
+    margin-left: 11px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .steps .ui.dropdown {
+    width: 70px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+    width: 277px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .inline-box {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .steps .ui.dropdown {
+    width: 70px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .addstep .ui.dropdown {
+    width: 277px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two table tr td .addstep {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid table tr td .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .bottom-section {
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .bottom-section .button {
+    background-color: #fd5073;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 700;
+    width: 22%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .inline-box label:before {
+    border-radius: 0;
+    border: 2px solid #3e3e3e;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+    width: 160px;
+    min-width: auto;
+    border-radius: 0;
+    background-color: #f4f3f3;
+    margin: 0 4px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .colon {
+    padding: 0 10px 0 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .input-name {
+    width: auto;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .input-name input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .input-description {
+    width: auto;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .input-description input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.timerange1 {
+    display: inline-block;
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown {
+    min-width: auto;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td {
+    border-top: 0;
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+    width: 112px;
+    min-width: auto;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content .bottom-section {
+    bottom: -90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content .bottom-section .ui.button {
+    background-color: #fd5073;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range {
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range .ui.dropdown.selection {
+    width: 110px;
+    min-width: auto;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range {
+    width: 60px;
+    min-width: auto;
+    border-radius: 0;
+    background: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated {
+    width: 320px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated.full-dropdown-field .ui.dropdown {
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated .ui.dropdown {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.radio-style {
+    width: 320px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled.moffice .title {
+    background-color: #fd5073;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled.moffice .title h4 {
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled.moffice .title h4 {
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled.moffice .title .left.menu .fa-plus-square {
+    color: #fff !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item .ui.radio.checkbox {
+    padding-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item .ui.radio.checkbox label {
+    color: #959595;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled.moffice .title .left.menu .fa-minus-square {
+    color: #fff !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.floated .ui.dropdown .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.radio-style .field {
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines .ui.selection {
+    width: 150px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .btn {
+    left: 0;
+    right: 0;
+    bottom: -90px;
+    text-align: center;
+    position: absolute;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .btn .ui.button {
+    border-radius: 0;
+    background-color: #fd5073;
+    color: #fff;
+    font-size: 18px;
+    width: 17%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right .ui.button {
+    border-radius: 0;
+    background-color: #fd5073;
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines input {
+    width: 150px !important;
+    margin-left: 17px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item {
+    padding: 5px 5px 5px 15px;
+    min-height: 50px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item .ui.radio.checkbox label:before {
+    border: 2px solid;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item .ui.radio.checkbox input:checked ~ label:before {
+    border: 2px solid #d9534f;
+    color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items .item .ui.radio.checkbox label:after {
+    background-color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.items {
+    margin: 0;
+    border-bottom: 1px solid rgba(34, 36, 38, .15);
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated input {
+    width: 100%;
+    background-color: #f4f3f3;
+    border-radius: 0;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 10px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .accordion .title .attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .accordion .title.active .attached.menu .left.menu .fa-plus-square {
+    display: none;
+    color: #536c8e;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .accordion .title .attached.menu .left.menu .fa-plus-square {
+    color: #536c8e;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .accordion .title.active .attached.menu .left.menu .fa-minus-square {
+    display: inline-block;
+    color: #536c8e;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .accordion .title .attached.menu .left.menu .fa-minus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.link-server {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.link-server .lef-serversection, .right-serversection {
+    background-color: #fff;
+    padding: 25px;
+    min-height: 405px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.link-server .lef-serversection .ui.message, .right-serversection .ui.message {
+    border: 1px dashed;
+    box-shadow: none;
+    width: auto;
+    min-width: auto;
+    border-radius: 0;
+    background: #fff;
+    max-width: max-content;
+    margin-top: 30px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.link-server .lef-serversection .ui.button, .right-serversection .ui.button {
+    border-radius: 0;
+    background-color: #fd5073;
+    color: #fff;
+    font-size: 15px;
+    padding: 16px 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.link-server .lef-serversection p, .right-serversection p {
+    color: #626262;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .block-section .items {
+    background-color: #fff;
+    margin: 0;
+    border-bottom: 1px solid #cac4c45e;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right input {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right {
+    width: 350px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right.name-field input {
+    width: 170px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right .ui.selection.dropdown {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right.name-field input:last-child {
+    margin-left: 7px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -100px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .btn .ui.button {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5073;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right label {
+    width: 100%;
+    font-size: 13px;
+    color: #737373;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab p {
+    color: #3c3c3c;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 17% 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form .submenu input {
+    width: 205px;
+    border-radius: 0;
+    background: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call tfoot tr th p {
+    color: #fd5073;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: initial;
+    padding: 15px 0 75px 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion {
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title .fa-minus-square {
+    color: #536c8e;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title .fa-minus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title.active .fa-minus-square {
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title.active .fa-plus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title.active .fa-plus-square {
+    color: #536c8e;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .accordion .title .fa-plus-square {
+    color: #536c8e;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .ui.top.attached.menu {
+    background-color: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .content .ui.items .item .ui.radio.checkbox input:checked ~ label:before {
+    border: 2px solid #d9534f;
+    color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .content .ui.items .item .ui.radio.checkbox label:after {
+    background-color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .content .ui.items .item .ui.radio.checkbox label:before {
+    border: 2px solid #828282;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items {
+    margin: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .item {
+    height: 50px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.right.floated {
+    width: 270px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.right.floated .ui.dropdown {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.radio-style .field {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.radio-style .fields {
+    float: right;
+    width: 130px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.radio-style .fields label {
+    color: #959595;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details {
+    display: inline-block;
+    padding: 7px 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items {
+    margin: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details input {
+    width: 265px;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .anscall .field {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form label {
+    margin-right: 15px;
+    width: auto !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form input {
+    width: 315px;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form .field.radio {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form .label-field {
+    width: 278px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.radio.checkbox input:checked ~ label:before {
+    border: 2px solid #d9534f;
+    color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.radio.checkbox label:after {
+    background-color: #d9534f;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.message {
+    box-shadow: none;
+    border-radius: 0;
+    background: #bababa;
+    margin: 0 15px 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .ui.dropdown.selection {
+    width: 260px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items textarea {
+    border-radius: 0;
+    background-color: #f4f3f3;
+    height: 80px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.message p {
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content table thead tr th {
+    background-color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #3c3c3c;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content table tbody tr td {
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section table tbody tr td {
+    border-right: 1px solid #efebeb;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content table tbody tr td label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion {
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion, .title, .ui.top.attached.menu {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item {
+    padding: 6px 10px 7px 20px;
+    min-height: 50px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items {
+    margin: 0;
+    border-bottom: 1px solid #c3c3c35e;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated {
+    width: 290px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated .ui.selection.dropdown {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated .ui.selection.dropdown .dropdown.icon:before {
+    font-size: 18px;
+    color: #adadad;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated .field {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated input {
+    width: 100%;
+    background-color: #f4f3f3;
+    border-radius: 0;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 10px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .title {
+    padding-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab p {
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 18%;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: -100px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .btn .ui.button {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5073;
+    font-size: 18px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items {
+    margin: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated {
+    width: 320px;
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated input, .ui.selection.dropdown {
+    width: 100%;
+    border-radius: 0;
+    background-color: #f4f3f3;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 10px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated.provider-dropdown .ui.selection.dropdown:first-child {
+    width: 59%;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated.provider-dropdown .ui.selection.dropdown:last-child {
+    width: 40%;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .item {
+    padding: 6px 10px 7px 20px;
+    min-height: 55px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion {
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .row {
+    background-color: #fff;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.items .item .middle.content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.items .item .ui.radio-style .field {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .no-padding {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.message {
+    margin: 0;
+    background-color: #a0a0a0;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.message p {
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.message p input {
+    min-height: 30px;
+    border: 1px solid #FFF;
+    width: 245px;
+    margin-left: 35px;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .btn {
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .btn .ui.button {
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    background-color: #fd5073;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.message.details {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.message.details p {
+    font-size: 14px;
+    color: #959595;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .dropdown.icon:before {
+    font-size: 18px;
+    color: #929292;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.items .item label {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form .ui.radio.checkbox label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .video-link {
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px dashed;
+    box-shadow: none;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .head-title {
+    color: #3c3c3c;
+    font-size: 18px;
+    padding: 0 18%;
+    margin-top: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .btn.bottom {
+    position: absolute;
+    bottom: -140px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .btn {
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .btn .ui.button {
+    font-size: 18px;
+    color: #fff;
+    border-radius: 0;
+    background-color: #fd5073;
+    width: 13%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .ui.accordion .content .no-padding {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.compact .ui.button {
+    background-color: #fd5073;
+    margin: 0;
+    word-spacing: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.compact p {
+    color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion table.fold-table > tbody > tr.view.open .fa-plus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion table.fold-table > tbody > tr.view.open .fa-minus-square {
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion table.fold-table > tbody > tr.view .fa-minus-square {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion table.fold-table > tbody > tr.view svg {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .title {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table thead tr th {
+    background-color: #FFF;
+    border: 0;
+    padding: 20px 13px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table {
+    border-radius: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content .new-report tr td {
+    padding: 5px 10px;
+    height: 47px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table thead tr th label {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td {
+    border-left: 0;
+    border-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.dropdown.selection {
+    width: 65%;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td label {
+    color: #525252;;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table tbody tr td {
+    color: #525252;;
+    font-size: 14px;
+    font-weight: 400;
+    border-left: 0;
+    padding: 8px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content tfoot tr th {
+    background-color: #fff;
+    border-right: 0;
+    border-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content tfoot tr th input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.form input {
+    width: 65%;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.align.form {
+    text-align: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content tfoot tr th .ui.button {
+    float: right;
+    width: 45%;
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5073;
+}
+
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.form .ui.checkbox input {
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.inbound {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.inbound::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background-color: #c7d9ff;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.inbound .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.inbound .ui.form label {
+    padding-left: 45px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.outbound {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.outbound::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background-color: #cfffaf;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.outbound .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.outbound .ui.form label {
+    padding-left: 45px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Interoffice {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Interoffice::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background-color: #dfbcff;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Interoffice .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Interoffice .ui.form label {
+    padding-left: 45px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.QueueCall {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.QueueCall::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background-color: #f9ecbf;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.QueueCall .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.QueueCall .ui.form label {
+    padding-left: 45px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Barge {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Barge::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background-color: #f9cc8a;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Barge .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.Barge .ui.form label {
+    padding-left: 45px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.KeyCode {
+    position: relative;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.KeyCode::after {
+    position: absolute;
+    content: '';
+    width: 45px;
+    background-color: #ff96e1;
+    top: 0;
+    bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.KeyCode .ui.form {
+    margin-left: 14px;
+    z-index: 9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td.KeyCode .ui.form label {
+    padding-left: 45px;
+}
+
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab {
+    background-color: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled {
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .no-padding {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo {
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr th {
+    border-radius: 0;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone .item {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone input {
+    width: 160px;
+    background-color: #f4f3f3;
+    border-radius: 0;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 9px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone .ui.selection.dropdown {
+    width: 140px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone table tr td label {
+    margin-right: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone table tr td {
+    border-bottom: 1px solid rgba(34, 36, 38, .1);
+    border-right: 0;
+    border-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo input {
+    width: 155px;
+    background-color: #f4f3f3;
+    border-radius: 0;
+    border: 1px solid rgba(34, 36, 38, .15);
+    padding: 9px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone tfoot tr th .leftone {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 110px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone tfoot tr th .right-content {
+    display: inline-block;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone tfoot tr th p {
+    color: #fd5073;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone tfoot tr th {
+    padding: 15px 0 30px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .multiselect {
+    width: 100%;
+    min-height: 180px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-size: 14px;
+    color: #827d7d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border-color: #d9d9d9;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .user-section {
+    background-color: #fff;
+    padding: 20px 25px 40px 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .seven h3 {
+    color: #536c8e;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .btn {
+    padding-top: 100px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .btn .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .btn .ui.button.first-btn {
+    background-color: #404040;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .button-style {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .button-style .ui.button {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5173;
+    font-size: 18px;
+    font-weight: 700;
+    width: 16%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .multiselect option {
+    margin-bottom: 8px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab table tr td {
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab table tr td a {
+    color: #7d7af5;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .ui.message {
+    text-align: center;
+    box-shadow: none;
+    border: 1px dashed;
+    border-radius: 0;
+    background: transparent;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .ui.message p {
+    color: #646363;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .ui.message p span {
+    color: #fd5073;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table tr th {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table tr th .ui.form label {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item {
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown {
+    width: 155px;
+    min-width: auto;
+}
+
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .ui.styled.accordion {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report {
+    background: transparent;
+    padding: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .title {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .section select {
+    width: 100%;
+    min-height: 175px;
+    background-color: #f4f3f3;
+    padding: 15px;
+    border: 1px solid rgba(189, 188, 188, 0.87);
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .section select option {
+    color: #827d7d;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .mid-section {
+    padding: 0 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .section p {
+    color: #fd5073;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-style .ui.dropdown.selection {
+    display: inline-block;
+    width: 31%;
+    min-width: auto;
+    margin: 0 3px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection {
+    width: 48%;
+    min-width: auto;
+    margin: 0 2px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .padding-right {
+    padding-right: 35px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very tr th {
+    border-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very tr td {
+    border-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu {
+    border: 0;
+    box-shadow: none;
+    padding-top: 22px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu .ui.form {
+    padding-left: 10px;
+    width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu .ui.form .ui.checkbox label {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .ui.message {
+    text-align: center;
+    background: transparent;
+    border-radius: 0;
+    border: 1px dashed;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .ui.message p {
+    color: #ef3057;
+    font-size: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .ui.message p b {
+    color: #646363;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .btn {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .btn .ui.button {
+    background-color: #fd5173;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    width: 18%;
+}
+
+.ui.checkbox .box:before, .ui.checkbox label:before {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons p {
+    word-spacing: 3px;
+    font-size: 18px;
+    color: #3c3c3c;
+    font-weight: 400;
+    padding: 0 4%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .ui.styled .title {
+    padding-bottom: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info {
+    padding: 8px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.input {
+    width: 82%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info input {
+    border-radius: 0;
+    background-color: #f4f3f3;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info span {
+    padding: 0 5px 0 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.button {
+    border-radius: 0;
+    background-color: #fd5073;
+    color: #fff;
+    width: 10%;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr th {
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr th:first-child {
+    padding-left: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr td:first-child {
+    padding-left: 27px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr td .deleted img {
+    vertical-align: middle;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr td {
+    font-size: 13px;
+    color: #737373;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion {
+    width: 100%;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion .title {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .accordion .content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .ui.message {
+    display: inline-block;
+    background-color: #fd5073;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td {
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.dropdown.selection {
+    width: 288px;
+    min-height: 35px;
+    height: 35px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table {
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.button {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5073;
+    padding: 10px 10px;
+    width: 135px;
+    margin-left: 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.dropdown.selection i.dropdown.icon {
+    padding: 8px !important;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.call-section.dropdown.selection {
+    width: 230px;
+    min-width: auto;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab .ui.message p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table tbody tr td .ui.button {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fd5073;
+    padding: 5px 25px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table tbody tr td a {
+    color: #7d7af5;
+    font-size: 14px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table tr th {
+    background-color: #fff;
+    border-bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#table_detail .hidden_row {
+    display: none;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content .left-section ul {
+    padding-left: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content .left-section ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content .left-section {
+    float: left;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content .right-section {
+    float: right;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content .right-section ul li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record {
+    margin-bottom: 30px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.recording-tab p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .call-logs {
+    padding: 55px 0 25px 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .call-logs label {
+    color: #ef3057;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .call-logs label i {
+    color: #78787c;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table tr th:first-child {
+    padding-left: 20px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled .top.attached.menu .right.menu .ui.button {
+    background-color: #fd5073;
+    color: #fff;
+    border-radius: 0;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status table {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status table tr td {
+    padding: 10px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.status table tr th {
+    padding: 10px 10px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.fold-table {
+    width: 100%;
+    background-color: #fff;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.fold-table th {
+    text-align: left;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.fold-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.ftable {
+    width: 100%;
+}
+.main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .removeOffice {
+    color: #fff;
+}
+
+/* TODO: LOGIN */
+.account-login-page .row .column {
+    border: 0;
+    box-shadow: none !important;
+}
+
+.account-login-page .row .div-section:last-child {
+    background-color: #d4d4d526;
+    box-shadow: 0 0 25px #233d8a63 !important;
+}
+
+.account-login-page .row .div-section {
+    background-color: #fff;
+    box-shadow: 0 0 5px #233d8a63 !important;
+}
+
+.account-des {
+    padding: 0 75px;
+    text-align: center;
+}
+
+.account-des h3 {
+    color: #233d8a;
+}
+
+.account-des h3, p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.account-des img {
+    max-width: 100%;
+}
+
+.account-login-page {
+    padding: 40px 0 0 0;
+}
+
+@media only screen and (max-width: 850px) {
+    .account-des {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .account-login-page .row .div-section:last-child {
+        box-shadow: none !important;
+    }
+
+    .account-des {
+        padding: 0 75px;
+    }
+
+    .account-des h3, p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .account-des {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .account-des {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td label {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.form label {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown {
+        width: 125px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.form input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input {
+        width: 170px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {
+        width: 385px !important;
+        min-width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.Description-input {
+        min-width: auto;
+        width: 135px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.full {
+        min-width: auto;
+        width: 135px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {
+        width: 258px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+        width: 145px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-style .ui.dropdown.selection {
+        width: 100%;
+        margin: 2px 3px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right input.ttl {
+        width: 210px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .item .ui.right {
+        width: auto !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+        width: 265px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right {
+        width: 325px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td label {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form .field.radio input {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form input {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section {
+        margin: 0 !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown {
+        width: 135px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone input {
+        width: 135px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 98px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 225px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td label {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.input {
+        width: 79%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown {
+        width: 120px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo input {
+        width: 140px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone .ui.selection.dropdown {
+        width: 120px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {
+        width: 370px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input {
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range {
+        width: 54px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+        width: 140px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 40%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range {
+        width: 25%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table tr th .ui.form label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info thead tr th label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td label {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {
+        width: 348px !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {
+        width: 240px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range .ui.dropdown.selection {
+        width: 85px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown {
+        width: 160px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .colon {
+        padding: 0 0 0 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 198px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 118px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form label {
+        margin-right: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+        width: 225px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right {
+        width: 280px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled table tbody tr td .number input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.full {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.Description-input {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .button {
+        width: 100px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 185px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 105px;
+    }
+}
+s
+@media only screen and (max-width: 992px) {
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .accordion .content .btn {
+        text-align: center;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .accordion .content .btn .ui.button {
+        width: 110px;
+        margin: 0 auto 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.sub-menu .accordion .content .btn {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn .ui.button {
+        width: 110px;
+        margin: 0 auto 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.dropdown.selection {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .mid-section {
+        padding: 0 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .btn .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td a {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.link-server .lef-serversection {
+        margin-bottom: 20px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .ui.right.floated {
+        float: none;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .button-style .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.dial-tab .accordion .content .btn {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .no-padding {
+        padding: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo {
+        margin-left: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone {
+        margin-right: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .middle.aligned.content {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection {
+        width: 55%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+        word-spacing: 5px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .bottom-section .button {
+        width: 215px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 215px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 280px;
+    }
+
+    .main.container .ui.internally.celled.account-body {
+        top: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page {
+        padding: 30px 5px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery table {
+        width: 950px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .ui.styled .content {
+        overflow-x: scroll;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+        word-spacing: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td label {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu h4 {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th label {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user h4 {
+        font-size: 14px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .left.menu.playlist-one {
+        width: 170px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled.second-playlist .attached.menu .left.menu {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.button {
+        margin-top: 7px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info {
+        text-align: center;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content table thead tr th label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form input {
+        width: 260px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .ui.styled .attached.menu .left.menu {
+        text-align: left;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone table tr td {
+        padding: 10px 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content table {
+        background-color: #fff;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td label {
+        font-size: 12px;
+    }
+
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table thead tr th label {
+        font-size: 14px;
+    }
+
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .btn .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.notes.form label {
+        padding: 5px 5px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr label {
+        margin: 10px 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range {
+        width: 32%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range .ui.dropdown.selection {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr td {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 47%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table thead tr th {
+        padding: 6px 4px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table tbody tr td {
+        padding: 6px 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content tfoot tr th input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content {
+        overflow: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table {
+        width: 767px;
+        background: #fff;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table tr th {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.form input {
+        width: 54%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table.table-mb-syle {
+        background: #fff;
+        width: 767px;
+        overflow: hidden;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content {
+        overflow-x: scroll;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section table tbody tr td {
+        padding: 6px 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .ui.dropdown.selection {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details input {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.right.floated {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .item {
+        height: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.chat-tab .accordion .content {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated .radio-style {
+        text-align: right;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table {
+        background-color: #fff;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content table tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection {
+        width: 49%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-style .ui.dropdown.selection {
+        margin: 0 0 5px 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table thead tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+        width: 90%;
+        float: none;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .middle.aligned.content {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .btn .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info thead tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .available {
+        width: 80px;
+        margin: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td .offline-icon {
+        width: 80px;
+        margin: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.viewquery .group-info tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled.table-style-md table tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.groups .ui.styled.table-style-md table thead tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form .ui.dropdown {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form label {
+        text-align: left;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tr td {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table thead tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion.scroll-tablemd .content table tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table thead tr th {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+        text-align: left;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td {
+        display: table-cell;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .btn .ui.button {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.dropdown.selection {
+        min-width: auto;
+        width: 55%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.radio-style {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines .ui.selection {
+        width: 48%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines input {
+        width: 47% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table {
+        background: #fff;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .ui.items .item {
+        flex-direction: inherit;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo {
+        width: 767px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone {
+        width: 767px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .head-title {
+        padding: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .middle.aligned.content {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab .no-padding {
+        padding: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .middle {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right.name-field input {
+        width: 49%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.styled.accordion .content {
+        background-color: #fff;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.add-menu .ui.form .inline.fields input.submenu-name {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table.mobile-layout thead tr th {
+        display: table-cell !important;
+        font-size: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom table.mobile-layout tbody tr td {
+        display: table-cell !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form .selection {
+        width: 100%;
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form input {
+        width: 100%;
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table.promot tbody tr td.mobile-width {
+        width: 100% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr {
+        padding-right: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts table tr th {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th label {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td img {
+        width: 20px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td {
+        font-size: 11px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table.group-info tbody tr td {
+        display: inline-table !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content table.group-info thead tr th {
+        display: inline-table !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table.no-border tr td .ui.form .ui.dropdown {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td .ui.form {
+        width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table.no-border tr td:first-child {
+        padding: 6px !important;
+    }
+
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr th {
+        display: inline-table !important;
+        min-width: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message p {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr {
+        border-bottom: 1px solid rgba(34, 36, 38, .1);
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table tr td {
+        display: inline-table !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection {
+        width: 48%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table thead tr th {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label {
+        font-size: 15px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.settings-tab p {
+        padding: 0 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu h4 {
+        font-size: 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 185px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 46%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right.name-field input {
+        width: 48%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.status .ui.message p {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui .scroll-style .content table {
+        width: 650px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui .scroll-style .content {
+        overflow-x: scroll;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab p {
+        padding: 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label {
+        font-size: 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts table tr th {
+        font-size: 5px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 250px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.groups .ui.styled .attached.menu .left.menu {
+        text-align: left;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table {
+        width: 600px;
+        overflow-x: scroll;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section {
+        overflow: auto;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .attached.menu {
+        display: block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .attached.menu .right.menu h4 {
+        width: auto;
+        text-align: center;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .attached.menu .left.menu {
+        width: 100% !important;
+        display: block;
+        text-align: center;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.styled .attached.menu .right.menu {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h1 {
+        font-size: 15px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label p {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .striped.table tbody tr td {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .scroll-style .content {
+        overflow-x: scroll;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .button {
+        padding: 11px 15px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection {
+        min-width: auto;
+        width: 180px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .scroll-style .content table {
+        width: 600px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled .content .total-size {
+        width: 600px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled.all-details .content {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts .ui.styled.all-details .content table {
+        width: 600px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 205px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 135px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page .ui.message p {
+        font-size: 14px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.main-page h3 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 45%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+        width: 30%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu .ui.form .ui.checkbox label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection {
+        width: 150px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 155px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-menu .ui.top.attached.menu {
+        display: inline-block;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row h1 {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+        width: 85%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.link-server .lef-serversection p, .right-serversection p {
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.voice-prompts p {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-two {
+        width: 600px;
+        margin-bottom: 50px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown {
+        width: 225px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown {
+        width: 145px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .section-one {
+        width: 600px;
+        margin-bottom: 50px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call .ui.grid .sixteen.wide.mobile.sixteen {
+        width: 600px !important;
+        overflow-x: scroll;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .head-title {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines .ui.selection {
+        width: 46%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown {
+        width: 44%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+        width: 29%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.button {
+        margin: 10px 0;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.call-section.dropdown.selection {
+        width: 100%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.reasons p {
+        font-size: 15px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection {
+        width: 46%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .ui.list label {
+        font-size: 12px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.message p input {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.link-server .lef-serversection .ui.message, .right-serversection .ui.message {
+        padding: 5px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom h4 {
+        word-spacing: 0;
+        font-size: 13px;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.edit-call table.no-border tr td .ui.form .ui.dropdown {
+        width: 140px !important;
+        min-width: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines input {
+        width: 46% !important;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown {
+        width: 28%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header {
+        width: 82%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated.provider-dropdown .ui.selection.dropdown:first-child {
+        width: 58%;
+    }
+
+    .main.container .ui.internally.celled.account-body .tabular.menu .ui.bottom.block-tab .ui.attached.segment .block-section .ui.items .ui.right.name-field input {
+        width: 47%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.main.container .ui.internally.celled.account-body {*/
+/*     padding: 0;*/
+/*    background: #edf1f5;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*}*/
+
+
+
+/*.main-section {*/
+/*    width: 300px;*/
+/*    position: fixed;*/
+/*    right: 50px;*/
+/*    bottom: -350px;*/
+/*}*/

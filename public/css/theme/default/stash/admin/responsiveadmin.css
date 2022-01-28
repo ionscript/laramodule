@@ -1,0 +1,446 @@
+@media only screen and (max-width: 1224px) {
+.admin-header .ui.secondary.menu .item{padding: 0 25px;}
+}
+@media only screen and (max-width: 1200px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled table tbody tr td label{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.form label{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown{width: 125px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.form input{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.option.form .ui.dropdown{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input{width: 170px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input{    width: 385px !important;min-width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.Description-input{min-width: auto;width:135px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.full{min-width: auto;width:135px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input{width: 258px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown{width: 145px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 130px;}
+}
+@media only screen and (max-width: 1180px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-style .ui.dropdown.selection{width: 100%;margin: margin: 2px 3px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right input.ttl{width: 210px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .item .ui.right{width: auto !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header{width: 265px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right{width: 325px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled table tbody tr td label{display: block;}	
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form .field.radio input{width:auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form input{width:auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section{margin: 0 !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown{width: 135px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone input{width: 135px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 98px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 225px;}
+.admin-header .ui.secondary.menu .item{padding: 0 20px;}
+}
+
+@media only screen and (max-width: 1100px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td label{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.input{width: 79%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown{width: 120px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo input{width: 140px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone .ui.selection.dropdown{width: 120px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input{width: 370px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input{}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range{width: 54px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown{width: 140px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown{    width: 180px;}
+}
+
+@media only screen and (max-width: 1080px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 40%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range{width: 25%;}
+.timerange1{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.button{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom table tr th .ui.form label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info thead tr th label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled table tbody tr td label{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {width: 348px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {width: 240px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range .ui.dropdown.selection{width: 85px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown{width: 160px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .colon{padding: 0 0px 0px 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 198px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width:118px;}
+.admin-header .ui.secondary.menu .item{font-size: 13px;}
+.admin-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item{font-size: 13px;padding: 0 20px;}
+}
+@media only screen and (max-width: 1024px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form label{margin-right: 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header{width: 225px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right{width: 280px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled table tbody tr td .number input{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.d-input {width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input {width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.full {width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.Description-input {width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .ui.number.form input.extention-input {width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td .button{width: 100px;}
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text{font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 185px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 105px;}
+}
+@media screen and (min-width:993px){
+ #cssmenu{display: none;}
+}
+
+@media only screen and (max-width: 992px) {
+/*.inline-field-style .inline.fields .col-6{width: 49% !important;}*/
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.sub-menu .accordion .content .btn{text-align: center;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.sub-menu .accordion .content .btn .ui.button{width: 110px;margin: 0 auto 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.sub-menu .accordion .content .btn{padding-top: 30px;padding-bottom: 30px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn .ui.button{width: 110px;margin: 0 auto 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .dvPassport .accordion .content .btn{padding-top: 30px;padding-bottom: 30px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.dropdown.selection{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .mid-section{padding: 0 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .btn .ui.button{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info tbody tr td{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info tbody tr td a{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.link-server .lef-serversection{margin-bottom: 20px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone input{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo input{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .ui.right.floated{float: none;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table tr td .ui.items .item .ui.selection.dropdown{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.dial-tab .button-style .ui.button{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.dial-tab .accordion .content .btn{padding-top: 35px;padding-bottom: 35px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .no-padding{padding: 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo{margin-left: 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone{margin-right: 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .middle.aligned.content{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label{font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection{width: 55%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h4{word-spacing: 5px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .bottom-section .button{width: 215px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 215px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 280px;}
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text{font-size: 13px;}
+.padding-bottom{padding-bottom: 0 !important;}
+.header-mobile{margin-bottom: -60px !important;}
+.admin-header{min-height: auto;}
+#context1{display: none;}
+nav{width:100%;}
+#cssmenu{width:100%;position: relative;top: -80px;}
+#cssmenu ul{width:100%;display:none;padding-left: 0;}
+#cssmenu ul li{width:100%;border-top:1px solid #444}
+#cssmenu ul li:hover{background:#363636;}
+#cssmenu ul ul li,#cssmenu li:hover > ul > li{height:auto}
+#cssmenu ul li a,#cssmenu ul ul li a{width:100%;border-bottom:0}
+#cssmenu > ul > li{float:none}
+#cssmenu ul ul li a{padding-left:25px}
+#cssmenu ul ul li{background:#333!important;}
+#cssmenu ul ul li:hover{background:#363636!important}
+#cssmenu ul ul ul li a{padding-left:35px}
+#cssmenu ul ul li a{color:#ddd;background:none}
+#cssmenu ul ul li:hover > a{color:#fff}
+#cssmenu ul ul li a.active {color: #fd5073;}
+#cssmenu .submenu-button.submenu-opened a{background-color: #fd5073;}
+#cssmenu ul ul,#cssmenu ul ul ul{position:relative;left:0;width:100%;margin:0;text-align:left}
+#cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+#cssmenu #head-mobile{display:block;padding:23px;color:#ddd;font-size:12px;font-weight:700}
+#cssmenu .button{width:55px;height:46px;position:absolute;right:0;top:0;cursor:pointer;z-index: 12399994;}
+#cssmenu .button:after{box-sizing: unset;position:absolute;top:22px;right:20px;display:block;height:4px;width:20px;border-top:2px solid #dddddd;border-bottom:2px solid #dddddd;content:''}
+#cssmenu .button:before{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;position:absolute;top:16px;right:20px;display:block;height:2px;width:20px;background:#ddd;content:''}
+#cssmenu .button.menu-opened:after{-webkit-transition:all .3s ease;-ms-transition:all .3s ease;transition:all .3s ease;top:23px;border:0;height:2px;width:19px;background:#fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+#cssmenu .button.menu-opened:before{top:23px;background:#fff;width:19px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}
+#cssmenu .submenu-button{position:absolute;z-index:99;right:0;top:0;display:block;border-left:1px solid #444;height:46px;width:46px;cursor:pointer}
+#cssmenu .submenu-button.submenu-opened{background:#262626}
+#cssmenu ul ul .submenu-button{height:34px;width:34px}
+#cssmenu .submenu-button:after{position:absolute;top:22px;right:19px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:after{top:15px;right:13px}
+#cssmenu .submenu-button.submenu-opened:after{background:#fff}
+#cssmenu .submenu-button:before{position:absolute;top:19px;right:22px;display:block;width:2px;height:8px;background:#ddd;content:''}
+#cssmenu ul ul .submenu-button:before{top:12px;right:16px}
+#cssmenu .submenu-button.submenu-opened:before{display:none}
+#cssmenu ul ul ul li.active a{border-left:none}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
+.admin-header .ui.segment.logo{text-align: center;border-right: 0;z-index: 1;}
+.main.container .ui.internally.celled.admin-body{top: 0px;}
+#context1{text-align: center;}
+.admin-header .ui.secondary.menu{float: none;width: 100%;display: inline-block;padding-top: 5px;}
+.admin-header .ui.secondary.menu .item{font-size: 15px;float: none;margin: 0;display: inline-block;}
+.admin-header .ui.tab.segment.active{display: inline-block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.main-page{padding: 30px 5px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table{margin-bottom: 10px;}
+}	
+@media only screen and (max-width: 950px) {
+	.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery table{width: 950px;}
+	.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .ui.styled .content {overflow-x: scroll;}
+}
+@media only screen and (max-width: 900px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h4{word-spacing: 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td label{font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label{font-size: 11px;}
+.main.container .ui.internally.celled.admin-header-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td .ui.button{padding: 8px 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu h4{font-size: 13px;margin-right: 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th label{font-size: 12px;}
+}
+@media only screen and (max-width: 850px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user h4{font-size: 14px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user .ui.styled.accordion table tbody tr td{font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .left.menu.playlist-one{
+width: 170px;
+}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled.second-playlist .attached.menu .left.menu{width: 170px;}
+}
+@media only screen and (max-width: 800px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.button{margin-top: 7px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content form .new-info{text-align: center;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.status .ui.styled.accordion .content table thead tr th label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form input{width: 260px;}
+.admin-header .ui.secondary.menu .item{font-size: 12px; }
+.admin-header .ui.tab.segment.active .ui.top.attached.tabular.menu .item{padding: 0 15px;font-size: 12px;}
+}
+
+@media only screen and (max-width: 767px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .ui.styled .attached.menu .left.menu{text-align: left;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone table tr td{padding: 10px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content table{background-color: #fff;}
+td.inbound{width: 155px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td label{font-size: 12px;}
+.inlinetable th{padding-left: 0 !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table thead tr th label{font-size: 14px;}
+.ui.table td.four.wide, .ui.table th.four.wide{width: 25% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table tbody tr td{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .btn .ui.button{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.notes.form label{padding: 5px 5px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr label{margin: 10px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .range{width: 32%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td .day-range .ui.dropdown.selection{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr td{width: 100% !important;}
+.time-range .fa-layers.fa-fw.fa-2x {display: none;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 47%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .type .ui.dropdown{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table thead tr th{padding: 6px 4px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table tbody tr td{padding: 6px 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content tfoot tr th input{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content{overflow: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled .content table{width: 767px;background: #fff;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom table tr th{padding-bottom: 20px;padding-top: 20px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.form input{width: 54%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table.table-mb-syle{background:#fff;width: 767px;overflow: hidden;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content{overflow-x: scroll;}
+.inline-field-style .input-field{width: 100%;margin: 8px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section table tbody tr td{padding: 6px 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.form input{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .ui.dropdown.selection{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .New-chat-section .ui.items .details input{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .ui.right.floated{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content .chat-tab-section .ui.items .item{height: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.chat-tab .accordion .content{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated .radio-style{text-align: right;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table{background-color: #fff;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content table tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content table tr td{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons .content form .new-info .ui.button{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very tr th{    display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection{width: 49%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-style .ui.dropdown.selection{margin: 0 0 5px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table thead tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header{width: 90%;float: none;}
+.sixteen.wide.tablet.eight.wide.computer.column.no-padding.announcement .ui.items .item .ui.right{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .middle.aligned.content{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .ui.items .item .ui.right{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .btn .ui.button{width: auto;}
+.ui.styled.accordion.table-style-md table{width: 700px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info thead tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info tbody tr td .available{width: 80px;margin: 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info tbody tr td .offline-icon{width: 80px;margin: 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.viewquery .group-info tbody tr td{display: table-cell !important;}
+.ui.styled.accordion.table-style-md .content{overflow: auto;}
+/*.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled.table-style-md table {display: table-cell !important;}*/
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled.table-style-md table tbody tr td{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.groups .ui.styled.table-style-md table thead tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form .ui.dropdown{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion table tbody tr td .ui.primary-option.form label{text-align: left;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table tr td{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table thead tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion.scroll-tablemd .content table tbody tr td{display: table-cell !important;}
+.ui.table td.three.wide, .ui.table th.three.wide{width: 18.75% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-menu .striped.table thead tr th{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-menu .striped.table tbody tr td{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h4{text-align: left;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-menu .striped.table tbody tr td{display: table-cell;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .left-section{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .btn .ui.button{width:auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.crd-report-tab .ui.styled.accordion .content table tbody tr td .ui.dropdown.selection{min-width: auto;width: 55%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.radio-style{width:auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines .ui.selection{width: 48%;}
+.ui.items:not(.unstackable)>.item{margin:0!important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines input{width: 47%!important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.floated{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content table{background: #fff;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .ui.items .item{flex-direction: inherit;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectiontwo{width: 767px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.dial-tab .ui.styled .content .dial-tab-sectionone{width:767px;}
+.scroll-style {overflow: hidden	;}
+.music-section .scroll-style {overflow-x: hidden !important;}
+.scroll-style .responsive-table{width: 767px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .head-title{padding: 0 0%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .middle.aligned.content{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.settings-tab .ui.styled.accordion .content .setting-tab-section .ui.items .item .ui.right.floated{width:100%;}
+.ui.ui-title {width: 100%;padding: 10px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.settings-tab .no-padding{padding: 0;}
+.customer-section {margin-bottom: 20px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab .ui.attached.segment .customer-section .ui.items .ui.right{width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab .ui.attached.segment .customer-section .ui.items .middle{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab .ui.attached.segment .customer-section .ui.items .ui.right.name-field input{width: 49%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.status .ui.styled.accordion .content{background-color: #fff;}
+.table-mb-syle {width: 100%;padding: 10px 5px 0px 10px;}
+.table-mb-syle th, td {text-align: left;}
+td.footable-row-detail-cell {background-color: #dadada96;padding: 8px 10px;}
+.footable-row-detail-row {min-height: 40px;}
+.footable-row-detail-name {display: inline-block;width: 48%;}
+.footable-row-detail-value {display: inline-block;float: right;width: 48%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.add-menu .ui.form .inline.fields input.submenu-name{margin: 10px 0;width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom  table.mobile-layout thead tr th{display: table-cell !important;font-size: 0px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom  table.mobile-layout tbody tr td{display: table-cell !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form .selection{width: 100%;display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled table tr td .ui.form input{width: 100%;display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table.promot tbody tr td.mobile-width{width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr {padding-right: 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts table tr th{font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table thead tr th label {font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td img{width: 20px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table tbody tr td{font-size: 11px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table.group-info tbody tr td {display: inline-table !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content table.group-info thead tr th {display: inline-table !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table.no-border tr td .ui.form .ui.dropdown{width: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table tr td .ui.form{width: auto;}
+.no-border tr{border:none !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table.no-border tr td:first-child{padding: 6px !important;}
+.ui.table td.two.wide, .ui.table th.two.wide{width: 12.5% !important;}
+.ui.table td.one.wide, .ui.table th.one.wide{width: 6.25% !important;}
+.ui.table td.six.wide, .ui.table th.six.wide{width: 37.5% !important;}
+.ui.table td.five.wide, .ui.table th.five.wide{width: 31.25% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table tr th{
+	display: inline-table !important;
+   /*width: auto !important;*/
+   min-width: auto;
+}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.status .ui.message p{font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table tr{border-bottom: 1px solid rgba(34,36,38,.1);}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table tr td{
+display: inline-table !important;
+}
+.ui.table:not(.unstackable) tr{box-shadow: none !important;padding: 6px;}
+.content.scroll-style table.table-mb-syle {width: 767px;}
+.content.scroll-style{overflow: auto;}
+.fold-content table{width: 100%;}
+}
+
+@media only screen and (max-width: 700px) {
+.check-all{background: #f2f2f2;}
+.ui.popup{width: 240px;max-width: 240px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection{width: 48%;}
+.ui.accordion.scroll-tablemd table {width: 700px;overflow-x: scroll;}
+.ui.accordion.scroll-tablemd .content{overflow: auto;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content table thead tr th{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label{font-size: 15px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.settings-tab p{padding:0 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu h4{font-size: 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 185px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.main-page h3{font-size: 20px;}
+}
+
+@media only screen and (max-width: 650px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 46%;}
+.middle.aligned.content {overflow-x: unset !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab .ui.attached.segment .customer-section .ui.items .ui.right.name-field input{width: 48%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.status .ui.message p{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui .scroll-style .content table{width: 650px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui .scroll-style .content {overflow-x: scroll;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab p{padding: 0 0%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.view-user .ui.styled.accordion table thead tr th label{font-size: 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts table tr th {font-size: 5px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 250px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 160px;}
+}
+
+@media only screen and (max-width: 600px) {
+.inline-field-style .col-6 {width: 50%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.groups .ui.styled .attached.menu .left.menu{text-align: left;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section table{width: 600px;overflow-x: scroll;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding .added-info .right-section{overflow: auto;}
+.ui.right.aligned.category.search.item{width: 100% !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.styled .attached.menu{display: block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.styled .attached.menu .right.menu h4{width: auto;text-align:center;/*display: inline-block;*/}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.styled .attached.menu .left.menu{width:100% !important;display: block;text-align: center;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.styled .attached.menu .right.menu{width: 100%;display: inline-block;text-align: center;margin-top: 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h1{font-size: 15px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label p{font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom .ui.form .grouped .field .ui.radio.checkbox label{font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-menu .striped.table tbody tr td{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .scroll-style .content{overflow-x: scroll;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .button{padding: 11px 15px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection{min-width: auto;width: 180px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .scroll-style .content table{width: 600px;}
+
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h4{font-size: 12px;}
+.ui.right.aligned.category.search.item{width: 145px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled .content .total-size{width: 600px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled.all-details .content{overflow: hidden;overflow-x: scroll;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts .ui.styled.all-details .content table{width: 600px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 205px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 135px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.main-page .ui.message p{font-size: 14px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.main-page h3{font-size: 17px;}
+}
+
+@media only screen and (max-width: 550px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 45%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown{width: 30%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu .ui.form .ui.checkbox label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.music-section .ui.styled .attached.menu .right.menu .ui.dropdown.selection{width: 150px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 155px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 110px;}
+}
+@media only screen and (max-width: 500px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-menu .ui.top.attached.menu{display: inline-block;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .ui.right.floated.menu{display: inline-block;width: 100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row h1{font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header{width: 85%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.link-server .lef-serversection p, .right-serversection p {font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.voice-prompts p{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-two{width: 600px;margin-bottom: 50px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .addstep .ui.dropdown{width: 225px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one table tr td .goto .ui.dropdown{width: 145px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .section-one{width: 600px;margin-bottom: 50px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call .ui.grid .sixteen.wide.mobile.sixteen{width: 600px !important;overflow-x: scroll;}
+}
+@media only screen and (max-width: 480px) {
+.inline-style{text-align: center;}
+.inline-style .inline.fields{float: none !important;margin: 0 auto;}
+.inline-style .radio-style{text-align: center !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .head-title{font-size: 16px;}
+}
+@media only screen and (max-width: 450px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines .ui.selection{width: 46%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table tr .timers .ui.dropdown{width: 44%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown{width: 29%;}
+}
+
+@media only screen and (max-width: 400px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.button{margin: 10px 0;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.recording-tab .ui.styled .content table.record tbody tr td .ui.call-section.dropdown.selection{width:100%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.reasons p{font-size: 15px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.acd-report .content .ui.very .dropdown-inline .ui.dropdown.selection{width: 46%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.phoneno-details .ui.styled.accordion .content .ui.list label{font-size: 12px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .ui.styled.accordion .content .ui.message p input{margin-left: 0px;margin-top: 10px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.link-server .lef-serversection .ui.message, .right-serversection .ui.message{padding: 5px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom h4{word-spacing: 0px;font-size: 13px;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.edit-call table.no-border tr td .ui.form .ui.dropdown{width: 140px !important;min-width: auto;}
+}
+
+@media only screen and (max-width: 360px) {
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.addQue2 .ui.styled .content .section .ui.right.inlines input{width: 46%!important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.scheduler .ui.styled .content table .time-range td .ui.dropdown{width: 28%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.add-queue form .row .no-padding.announcement .ui.items .header{width: 82%;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.voip-tab-content .voip-tab-section .ui.items .ui.right.floated.provider-dropdown .ui.selection.dropdown:first-child{width: 58%;}
+.btn .ui.button{font-size: 15px !important;}
+.main.container .ui.internally.celled.admin-body .tabular.menu .ui.bottom.customer-tab .ui.attached.segment .customer-section .ui.items .ui.right.name-field input{width: 47%;}
+}

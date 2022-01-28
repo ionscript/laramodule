@@ -1,0 +1,47 @@
+{
+  "name": "ionscript/laramodule",
+  "description": "Laravel Modules Skeleton",
+  "homepage": "https://github.com/ionscript/laramodule",
+  "license": "GPL3+",
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Serhii Green",
+      "email": "ionscript.inc@gmail.com",
+      "homepage": "https://github.com/ionscript",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "laravel/framework": "^7.10"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "barryvdh/laravel-debugbar": "^3.3",
+    "barryvdh/laravel-ide-helper": "^2.7",
+    "laravel/telescope": "^3.5"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": [
+        "laravel/telescope"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Modules\\": "Modules/"
+    }
+  },
+  "autoload-dev": {},
+  "repositories": []
+}
